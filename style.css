@@ -1,0 +1,57 @@
+﻿body {
+    background-color: #FFFFFF;
+}
+
+header h1.gold {
+    text-align:center;
+}
+
+ul li{
+    position:relative;
+}
+
+nav {
+    height: 7em;
+}
+
+aside {
+    background-color: rebeccapurple;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    background:#EEEEEE;
+    border:none;
+    height: 1px;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    margin: 0em 1em 0em 0em;
+}
+
+li:hover {
+        
+    }
+
+footer {
+    background-color: green;
+}
+
+.gold {
+    font-family: Cormorant,sans-serif;
+    color: #545454;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul.gold li:hover, .selected{
+    color: #DAAA30;
+}
